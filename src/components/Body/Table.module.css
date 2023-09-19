@@ -1,0 +1,42 @@
+.container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container .table {
+    background-color: #eeee9a;
+    width: 180px;
+    height: 380px;
+    padding: 10px;
+    margin: 10px 0;
+    /* border: 1px solid #cec9c9; */
+    text-align: center;
+    border-radius: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.container .table h5 {
+    /* border-bottom:  1px solid hsl(0, 5%, 80%); */
+    background-color: #ffe13a;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    /* color: #747373; */
+}
+
+.container .table .ps{
+    background-color: #fff;
+    width: 50px;
+    display: block;
+}
+
+
+
+

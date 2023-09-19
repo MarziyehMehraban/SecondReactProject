@@ -1,0 +1,19 @@
+.info {
+    padding: 5px;
+    /* width: 50px; */
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    border: 1px solid #ffe13a;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+div >p{
+    display: flex;
+    justify-content: center;
+    /* text-align: center;6f6f; */
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+}

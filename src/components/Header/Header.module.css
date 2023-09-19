@@ -1,0 +1,146 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 3px 9px -8px #4B5267;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    /* margin-bottom: 50px;  */
+    height: 65px;
+}
+
+.Rcontainer {
+    display: flex;
+}
+
+.Rcontainer img {
+    width: 160px;
+    height: 48px;
+    margin: 2px 14px 4px 80px;
+}
+
+.menubar {
+    margin: 0 auto;
+    /* padding-left: 20px; */
+}
+
+.menubar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+    /* padding: 5px; */
+}
+
+.menubar ul li {
+    /* height: 20px; */
+}
+
+.menubar ul li .fAwesome1 {
+    border-right: none;
+}
+
+.menubar ul li a {
+    border-right: 1px solid #c5cacf;
+    margin: 15px 10px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    color: #6e6e6e;
+    padding-right: 25px;
+    font-size: 1.08rem;
+    /* border-radius: 10px; */
+}
+
+.menubar ul li a:hover{
+    background-color: #f8fafd;
+}
+
+.fAwesome::after,
+.fAwesome1::after {
+    font-family: FontAwesome;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-top: 5px;
+    content: "\f0d7";
+}
+
+
+.menubar ul ul {
+    display: none;
+}
+
+.menubar ul li:hover .dropDown {
+    width: 120px;
+    padding: 5px 10px;
+    display: block;
+    position: absolute;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 7px;
+    background: #fff;
+    color: #7e7e7e;
+    cursor: pointer;
+}
+
+.menubar ul li:hover .dropDown li {
+    padding: 10px 5px;
+    border-bottom: 1px solid #cfd3d8;
+}
+
+.menubar ul li:hover .dropDown .lastChild {
+    border-bottom: none;
+}
+
+.Lcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.Lcontainer span {
+    padding: 20px 20px;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+
+.Lcontainer span a:hover{
+    background-color: #f8fafd;
+}
+
+.Lcontainer span a.leftMenu1::before {
+    font-family: FontAwesome;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+    content: "\f059";
+}
+
+.Lcontainer span a.leftMenu2::before {
+    font-family: FontAwesome;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+    content: "\f5c1";
+}
+
+.Lcontainer span a.leftMenu3::before {
+    font-family: FontAwesome;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+    content: "\f007";
+}
+
+.Lcontainer span a {
+    padding: 8px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7e7e7e;
+}
